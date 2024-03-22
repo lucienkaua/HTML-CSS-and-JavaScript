@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 11rem;
+    background-color: #000000;
+    background-image: url("C:\\Users\\Lucien Fish\\Desktop\\DESARME A BOMBA - HTML CSS JS\\imagens\\bombagala.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 75vh;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adicione uma sombra sutil */
+}
+
+.timer {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adicione uma sombra sutil */
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 0 0 3px #242323;
+}
+
+.timer {
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+    border: 5px solid #fff;
+    padding: 30px;
+    text-shadow: 0 0 3px #242323;
+    width: 415px;
+}
+
+.timer:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: red;
+    min-width: 90px;
+}
+
+.separador {
+    padding: 0 10px;
+    color: #525763;
+}
+
+.milisegundos {
+    font-size: 30px;
+    color: #525763;
+}
+
+.botoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2 ease-in-out;
+}   
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+#botComecar {
+    background-color: green;
+    color: #fff;
+}
+
+#botPausar, 
+#botContinuar {
+    display: none;
+    background-color: blue;
+    color: white;
+    text-shadow: 0 0 3px #242323;
+}
+
+#botResetar {
+    background-color: red;
+    color: white;
+    text-shadow: 0 0 3px #242323;
+}
+
+#botCadastrar {
+    display: none;
+    background-color: yellow;
+    color: white;
+    text-shadow: 0 0 3px #242323;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 11rem;
+    background-color: #000000;
+    height: 75vh;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.containerForm h1 {
+    color: white;
+    text-shadow: 0 0 3px #464444;
+}
+
+.formulario {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    color: white;
+    display: block;
+    border: 5px solid #fff;
+    min-width: 300px;
+    height: auto;
+}
+
+.formulario input {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    min-width: 250px;
+    border-radius: 7px;
+    min-height: 20px;
+    text-align: center;
+}
+
+#enviar {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+    margin-top: 15px;
+    background-color: #f1f1f1;
+}
+
+#enviar:hover {
+    transform: scale(1.1);
+}
+
+.senha {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.senha h1 {
+    margin-top: 25px;
+}
+
+.digitos input {
+    text-align: center;
+    display: inline-flex;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    height: 160px;
+    border-radius: 6px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.botoesSenha {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 35px;
+}

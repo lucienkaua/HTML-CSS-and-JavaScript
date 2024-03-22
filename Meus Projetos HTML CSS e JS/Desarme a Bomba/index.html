@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarme a Bomba!!!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="tituloPrincipal">DESARME A BOMBA!!!</h1>
+        <div class="timer">
+            <div class="tempo" id="minutos">00</div>
+            <div class="separador">:</div>
+            <div class="tempo" id="segundos">00</div>
+            <div class="separador">:</div>
+            <div class="tempo" id="milisegundos">000</div>
+        </div>
+        <div class="botoes">
+            <button class="botao" id="botComecar">Iniciar</button>
+            <button class="botao" id="botPausar">Pausar</button>
+            <button class="botao" id="botContinuar">Continuar</button>
+            <button class="botao" id="botResetar">Resetar</button>
+        </div>
+    </div>
+
+    <div class="senha">
+        <h1>USE OS NÚMEROS EM SEQUÊNCIA E DESCUBRA A <span style="color: red;">SENHA</span></h1>
+        <div class="digitos">
+            <input id="digito1" type="text">
+            <input id="digito2" type="text">
+            <input id="digito3" type="text">
+            <input id="digito4" type="text">
+        </div>
+        <div class="botoesSenha">
+            <button class="botao" id="botChecar">Checar senha</button>
+            <a id="botCadastrar" class="botao" href="#">Cadastrar Pontuação</a>
+        </div>
+    </div>
+</body>
+</html>
